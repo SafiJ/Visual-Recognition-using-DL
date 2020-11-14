@@ -3,3 +3,5 @@
 
 ## HW1 Object Recognition
 Build a car classifier for Stanford Car Dataset
+
+## HW2 Object Detection
