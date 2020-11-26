@@ -1,6 +1,13 @@
 # Object detection
 
-clone the yolo repo<br/>
+set the folder structure like<br/>
+```
+HW2/
+ |---darknet/
+ |---to_sub.py 
+```
+ 
+clone the yolo repo under HW2 folder<br/>
 ```git clone https://github.com/AlexeyAB/darknet.git```
 
 change the make file to enable GPU<br/>
@@ -24,5 +31,6 @@ run on single images and see results<br/>
 ```./darknet detecotr test voc.names digit.cfg digit_last.weights -dont_show [path to your image]```
 
 
-change the json file to fit HW2 spec [optional]
+change the json file to fit HW2 spec [optional]<br/>
+remeber to run in HW2 folder<br/>
 ```python3 to_sub.py```
