@@ -22,3 +22,7 @@ run on multiple imgaes and get json file<br/>
 
 run on single images and see results<br/>
 ```./darknet detecotr test voc.names digit.cfg digit_last.weights -dont_show [path to your image]```
+
+
+change the json file to fit HW2 spec [optional]
+```python3 to_sub.py```
