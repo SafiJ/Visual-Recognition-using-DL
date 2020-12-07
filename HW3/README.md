@@ -35,6 +35,8 @@ myDataset_test = dataset_base.copy({
 put [my pretrained weight](https://drive.google.com/file/d/1DMFNCl4P3ScrsMydrCowt03d1rQPUnlH/view?usp=sharing) in ./weights/ folder
 
 evaluate my model <br/>
-```python3 eval.py --trained_model=weights/yolact_plus_resnet50_myDataset_1375_57786_interrupt.pth --config=test_config --output_coco_json --dataset=myDataset_test```
+```
+python3 eval.py --trained_model=weights/yolact_plus_resnet50_myDataset_1375_57786_interrupt.pth --config=test_config --output_coco_json --dataset=myDataset_test
+```
 
 the above command will generate 2 .json file in ./results/ folder, and the **mask_detections.json** is what we needed
