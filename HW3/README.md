@@ -51,3 +51,15 @@ python3 eval.py --trained_model=weights/yolact_plus_resnet50_myDataset_1375_5778
 ```
 
 the above command will generate 2 .json file in ./results/ folder, and the **mask_detections.json** is what we needed
+
+
+## Citation
+
+```
+@article{yolact-plus-tpami2020,
+  author  = {Daniel Bolya and Chong Zhou and Fanyi Xiao and Yong Jae Lee},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title   = {YOLACT++: Better Real-time Instance Segmentation}, 
+  year    = {2020},
+}
+```
