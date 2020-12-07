@@ -2,8 +2,8 @@
 
 I use [yolact](https://github.com/dbolya/yolact) to complete this assignment.
 
-First, clone the repo
-```https://github.com/dbolya/yolact.git```
+First, clone the repo <br/>
+```git clone https://github.com/dbolya/yolact.git```
 
 Use YOLACT++ [Optional]
 ```
