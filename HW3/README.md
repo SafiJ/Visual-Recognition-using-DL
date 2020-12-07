@@ -2,8 +2,15 @@
 
 I use [yolact](https://github.com/dbolya/yolact) to complete this assignment.
 
-First, clone the repo <br/>
+## Environment setup
+clone the repo <br/>
 ```git clone https://github.com/dbolya/yolact.git```
+
+install dependencies
+```
+pip install cython
+pip install opencv-python pillow pycocotools matplotlib
+```
 
 Use YOLACT++ [Optional]
 ```
