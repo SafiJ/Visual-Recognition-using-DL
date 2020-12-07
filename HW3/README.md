@@ -11,6 +11,7 @@ cd external/DCNv2
 python setup.py build develop
 ```
 
+## Edit ./data/config.py (or you can just replace the config.py with my config.py 
 add myDataset_test under the end of ```**DATASETS**``` part <br/>
 ```
 myDataset_test = dataset_base.copy({
@@ -32,8 +33,11 @@ myDataset_test = dataset_base.copy({
 })
 ```
 
+## Prepare weight
 put [my pretrained weight](https://drive.google.com/file/d/1DMFNCl4P3ScrsMydrCowt03d1rQPUnlH/view?usp=sharing) in ./weights/ folder
 
+
+## Evaluate the model
 evaluate my model <br/>
 ```
 python3 eval.py --trained_model=weights/yolact_plus_resnet50_myDataset_1375_57786_interrupt.pth --config=test_config --output_coco_json --dataset=myDataset_test
