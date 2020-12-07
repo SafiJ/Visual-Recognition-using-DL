@@ -12,7 +12,7 @@ python setup.py build develop
 ```
 
 ## Edit ./data/config.py (or you can just replace the config.py with my config.py 
-add myDataset_test under the end of ```**DATASETS**``` part <br/>
+add myDataset_test under the end of **DATASETS** part <br/>
 ```
 myDataset_test = dataset_base.copy({
   'name': '<your desired name>',
@@ -23,7 +23,7 @@ myDataset_test = dataset_base.copy({
 })
 ```
 
-add test_config under the end of ```**YOLACT v1.0 CONFIGS**``` part <br/>
+add test_config under the end of **YOLACT v1.0 CONFIGS** part <br/>
 ```
 myDataset_test = dataset_base.copy({
   'name': '<your desired name>',
