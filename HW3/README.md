@@ -41,7 +41,7 @@ myDataset_test = dataset_base.copy({
 ```
 
 ## Prepare weight
-put [my pretrained weight](https://drive.google.com/file/d/1DMFNCl4P3ScrsMydrCowt03d1rQPUnlH/view?usp=sharing) in ./weights/ folder
+put [my pretrained weight](https://drive.google.com/file/d/1Zr0WM4Lwwv2jkYmKirL_sp5wZ31nJYiV/view?usp=sharing) in ./weights/ folder
 
 
 ## Evaluate the model
