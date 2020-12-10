@@ -28,7 +28,7 @@ run on multiple imgaes and get json file<br/>
 ```./darknet detector test voc.names digit.cfg digit_last.weights -dont_show -out res.json < [path of .txt containing images]```
 
 run on single images and see results<br/>
-```./darknet detecotr test voc.names digit.cfg digit_last.weights -dont_show [path to your image]```
+```./darknet detector test voc.names digit.cfg digit_last.weights -dont_show [path to your image]```
 
 
 change the json file to fit HW2 spec [optional]<br/>
